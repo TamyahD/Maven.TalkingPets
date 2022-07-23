@@ -1,5 +1,7 @@
 package io.zipcoder.polymorphism;
 
+import com.sun.xml.internal.ws.util.StringUtils;
+
 public abstract class Pet {
     String name;
 
@@ -11,7 +13,7 @@ public abstract class Pet {
         return "*animal noises*";
     }
     public String getName() {
-        return name;
+        return StringUtils.capitalize(name);
     }
     public void setName(String name) {
         this.name = name;

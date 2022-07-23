@@ -1,8 +1,8 @@
 package io.zipcoder.polymorphism;
 
-public class GuineaPig extends Pet{
+public class Chinchilla extends Pet{
 
-    public GuineaPig(String name) {
+    public Chinchilla(String name) {
         super(name);
     }
 
