@@ -33,9 +33,9 @@ public class MainApplication {
                         Cat c = new Cat(el.getKey());
                         System.out.println(c.getName() + " says " + c.speak());
                         break;
-                    case "Chinchilla":
-                        Chinchilla ch = new Chinchilla(el.getKey());
-                        System.out.println(ch.getName() + " says " + ch.speak());
+                    case "Snake":
+                        Snake s = new Snake(el.getKey());
+                        System.out.println(s.getName() + " says " + s.speak());
                         break;
                     default:
                         OtherPet op = new OtherPet(el.getKey());
