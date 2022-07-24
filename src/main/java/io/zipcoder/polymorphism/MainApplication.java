@@ -47,7 +47,6 @@ public class MainApplication {
         }
     }
 
-
 /*
     public String capitalizeAll(String str) {
         String[] arr = str.split(" ");
